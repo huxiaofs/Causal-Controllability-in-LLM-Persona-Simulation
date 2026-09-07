@@ -1,0 +1,14 @@
+{
+  "_comment": "Six personas selected from the LHS HEXACO grid for the open-ended external-validity protocol.",
+  "_dim_order": ["Honesty-Humility", "Emotionality", "Extraversion", "Agreeableness", "Conscientiousness", "Openness"],
+  "_dim_short": ["H", "E", "X", "A", "C", "O"],
+  "_scale": "1-5 HEXACO scale",
+  "personas": [
+    {"id":"P1_HighX_LowH","category":"A_divergent","region":"High-X, low-H","global_idx":415,"hexaco":{"H":1.07,"E":2.78,"X":4.57,"A":2.45,"C":3.64,"O":2.81}},
+    {"id":"P2_NearO","category":"A_divergent","region":"Near-O","global_idx":1434,"hexaco":{"H":2.73,"E":2.68,"X":3.03,"A":3.55,"C":3.8,"O":2.92}},
+    {"id":"P3_NearA","category":"B_boundary","region":"Near-A","global_idx":195,"hexaco":{"H":1.52,"E":2.65,"X":2.5,"A":3.06,"C":3.73,"O":2.94}},
+    {"id":"P4_NearE","category":"B_boundary","region":"Near-E","global_idx":525,"hexaco":{"H":3.18,"E":2.93,"X":2.48,"A":2.29,"C":2.6,"O":2.55}},
+    {"id":"P5_NearH","category":"B_boundary","region":"Near-H","global_idx":556,"hexaco":{"H":3.01,"E":3.0,"X":3.87,"A":3.65,"C":4.99,"O":3.37}},
+    {"id":"P6_HighE_LowC","category":"C_hard","region":"High-E, low-C","global_idx":261,"hexaco":{"H":3.38,"E":3.96,"X":3.46,"A":3.0,"C":1.47,"O":2.61}}
+  ]
+}

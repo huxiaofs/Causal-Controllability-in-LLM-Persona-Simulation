@@ -1,0 +1,14 @@
+{
+  "model_path": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+  "tokenizer_path": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+  "persona_file": "data/persona/hexaco_samples_1-5_500.json",
+  "output_dir": "output",
+  "output_suffix": "llama3.1-70b",
+  "output_file": "persona_prompts.jsonl",
+  "max_new_tokens": 48,
+  "temperature": 0.8,
+  "top_p": 0.9,
+  "seed": 42,
+  "quantization": "4bit",
+  "max_personas": 100
+}

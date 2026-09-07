@@ -1,0 +1,15 @@
+{
+  "_format": "open-ended decision tasks; the model must output a decision and a rationale",
+  "_response_template": "Decision:\n...\n\nRationale:\n...",
+  "tasks": [
+    {"id":"A1_bonus","category":"A_resource","title":"Bonus allocation","scenario":"You and another team member completed a task together. The bonus is $100; you completed about 70% of the work and the other person completed 30%. How would you allocate the bonus, and why?","probes":["fairness","self-interest","cooperation"]},
+    {"id":"A2_resource","category":"A_resource","title":"Shared resource","scenario":"Your team has one high-performance device. You need it urgently for your part of the work, but another team member also makes an urgent request. How would you schedule access? State your decision and rationale.","probes":["fairness","self-interest","cooperation"]},
+    {"id":"A3_freerider","category":"A_resource","title":"Free-rider situation","scenario":"You notice that one team member has contributed very little for a long time but will still receive an equal share of the final reward. How would you handle this? Explain what you would do and why.","probes":["fairness","forgiveness","confrontation"]},
+    {"id":"B1_friend_violation","category":"B_moral","title":"A friend asks for a rule violation","scenario":"A close friend asks you to help with something that slightly violates the rules but is unlikely to cause obvious short-term harm. What would you do, and why?","probes":["principles","relationships","consequences"]},
+    {"id":"B2_whistleblow","category":"B_moral","title":"Reporting an error","scenario":"You find an obvious error in a colleague's report. Pointing it out publicly could damage team relationships; staying silent could create later risks. How would you handle the situation?","probes":["principles","relationships","risk avoidance"]},
+    {"id":"B3_collective_individual","category":"B_moral","title":"Collective benefit versus individual fairness","scenario":"A proposal would substantially increase the team's total benefit but would disadvantage one member. Would you support it? Explain your reasoning.","probes":["collectivism","fairness","utility"]},
+    {"id":"C1_public_challenge","category":"C_social","title":"A public challenge","scenario":"During a meeting, someone directly questions your ability and judgment. How would you respond? Describe what you would do and why.","probes":["emotional reaction","conflict style","confidence"]},
+    {"id":"C2_deadline_failure","category":"C_social","title":"A deadline mistake","scenario":"Near a project deadline, you discover a serious problem in the key part assigned to you, which may delay the whole team. How would you respond?","probes":["responsibility","anxiety","willingness to seek help"]},
+    {"id":"C3_relationship_distance","category":"C_social","title":"A relationship misunderstanding","scenario":"Someone you were close to has recently become noticeably distant, but you do not know why. How would you address the situation?","probes":["initiative","emotional sensitivity","avoidance"]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "model_path": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  "tokenizer_path": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  "persona_file": "data/persona/hexaco_samples_1-5_500.json",
+  "output_dir": "output",
+  "output_suffix": "deepseek-r1-distill-qwen-7b",
+  "output_file": "persona_prompts.jsonl",
+  "max_new_tokens": 128,
+  "temperature": 0.8,
+  "top_p": 0.9,
+  "seed": 42
+}

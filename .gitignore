@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+checkpoints/
+outputs/
+output/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.jsonl

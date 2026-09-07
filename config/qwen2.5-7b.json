@@ -1,0 +1,12 @@
+{
+  "model_path": "Qwen/Qwen2.5-7B-Instruct",
+  "tokenizer_path": "Qwen/Qwen2.5-7B-Instruct",
+  "persona_file": "data/persona/hexaco_samples_1-5_500.json",
+  "output_dir": "output",
+  "output_suffix": "qwen2.5-7b",
+  "output_file": "persona_prompts.jsonl",
+  "max_new_tokens": 128,
+  "temperature": 0.8,
+  "top_p": 0.9,
+  "seed": 42
+}
