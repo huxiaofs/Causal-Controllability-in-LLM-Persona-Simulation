@@ -131,13 +131,6 @@ python -m src.steps.eig_metric \
   --config config/ae_qwen2.5-7b.json
 ```
 
-The implementation follows the symmetric form used in the paper for the local
-generalized geometry:
-
-```text
-(g + εI)^(-1/2) h (g + εI)^(-1/2)
-```
-
 
 
 ### 5. Optional baselines and open-ended validation
@@ -192,8 +185,6 @@ If you use this repository, please cite:
 
 ## License and contact
 
-The code is released under the [MIT License](LICENSE). For questions, bug
-reports, or requests concerning the public resources, please open an issue in
+The code is released under the [MIT License](LICENSE). For questions, bug  
+reports, or requests concerning the public resources, please open an issue in  
 the [GitHub repository](https://github.com/huxiaofs/Causal-Controllability-in-LLM-Persona-Simulation/issues).
-
-Corresponding author: Shengling Wang (`wangshengling@bnu.edu.cn`).
